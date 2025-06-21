@@ -126,7 +126,7 @@ if (!isset($_SESSION['id_user'])) {
         <!-- Konten kanan -->
         <div id="layoutSidenav_content">
             <!-- Navbar berada di dalam main, atas konten dashboard -->
-            <nav class="navbar navbar-expand navbar-white bg-white px-3 mb-4 ">
+            <nav class="navbar navbar-expand navbar-white bg-white px-3 mb-2 ">
                 <!-- Sidebar Toggle-->
                 <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!">
                     <i class="fas fa-bars"></i>
@@ -172,7 +172,7 @@ if (!isset($_SESSION['id_user'])) {
             <main>
                 <!-- Konten dashboard -->
                 <div class="container-fluid px-4 bg-light">
-                    <h1 class="mt-1">Dashboard</h1>
+                    <h1 class="mt-0">Dashboard</h1>
                     <ol class="breadcrumb mb-4">
                         <li class="breadcrumb-item active">Informasi umum data gudang</li>
                     </ol>
